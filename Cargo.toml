@@ -1,0 +1,15 @@
+[package]
+name = "legendary-update"
+version = "0.1.0"
+edition = "2021"
+authors = ["LegendaryOS Team"]
+description = "Update LegendaryOS"
+license = "MIT"
+
+[dependencies]
+colored = "2.0"             # Kolorowanie terminala
+chrono = "0.4"              # Data i czas
+sysinfo = "0.30"            # Informacje o systemie i kernelu
+whoami = "1.5"              # Pobieranie aktualnego użytkownika
+regex = "1.10"              # Obsługa regex dla /etc/os-release
+ctrlc = "3.4"               # Obsługa Ctrl+C
